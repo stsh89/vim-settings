@@ -8,6 +8,11 @@ Run these commands to get this Vim configuration working on your Linux machine.
     git clone git@github.com:stsh89/vim-settings.git ~/.vim --recursive
     echo "source ~/.vim/.vimrc" > ~/.vimrc
 
+If you are using Mac OS you may want to add this lines to ~/.vimrc file:
+
+    set clipboard =unnamed
+    set backspace =indent,eol,start
+
 ## Vim tips
 
 ![vim cheat sheet](vi-vim-cheat-sheet.gif)
