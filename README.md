@@ -2,11 +2,21 @@
 Just another Vim settings under version control system.
 
 ## Installation
-
 Run these commands to get this Vim configuration working on your Linux machine.
 
     git clone git@github.com:stsh89/vim-settings.git ~/.vim --recursive
     echo "source ~/.vim/.vimrc" > ~/.vimrc
+
+
+## Some technical details
+My Vim settings include some plugins that are also under Git.
+So you can update them by the following command:
+
+    git submodule update --recursive --remote
+
+Or you can wait when I update them and just fetch this repo with:
+
+   git pull
 
 ## Vim tips
 
