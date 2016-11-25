@@ -12,14 +12,9 @@ If you are using Mac OS you may want to add this lines to ~/.vimrc file:
     set clipboard =unnamed
     set backspace =indent,eol,start
 
-My Vim settings include some plugins that are also under Git.  So you can
-update them by the following command:
-
-    git submodule update --recursive --remote
-
-Or you can wait when I update them and just fetch this repo with:
-
-    git pull
+## Installed plugins
+TODO
+  <!-- * [I'm an inline-style link](https://www.google.com) -->
 
 ## Vim tips
 
@@ -123,3 +118,7 @@ Pretty json:
 Reload the file:
 
     :e!
+
+Launch vim without any plugin:
+
+    vim -u NONE
