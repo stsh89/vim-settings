@@ -12,7 +12,7 @@ If you are using Mac OS you may want to add this lines to ~/.vimrc file:
     set clipboard =unnamed
     set backspace =indent,eol,start
 
-## Installed plugins
+## List of the installed plugins
   * [Airline themes](https://github.com/vim-airline/vim-airline-themes/tree/5bfa07ae06cbf3e73a137c2953e9877167e5986b)
   * [Airline](https://github.com/vim-airline/vim-airline/tree/53c8aa4fd67d4c0c06ea3f58134fdbc92672f737)
   * [Auto pairs](https://github.com/jiangmiao/auto-pairs/tree/84518168107c34fb540ee4f8cde743ceaf682bae)
