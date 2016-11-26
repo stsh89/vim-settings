@@ -13,8 +13,35 @@ If you are using Mac OS you may want to add this lines to ~/.vimrc file:
     set backspace =indent,eol,start
 
 ## Installed plugins
-TODO
-  <!-- * [I'm an inline-style link](https://www.google.com) -->
+  * [Airline themes](https://github.com/vim-airline/vim-airline-themes/tree/5bfa07ae06cbf3e73a137c2953e9877167e5986b)
+  * [Airline](https://github.com/vim-airline/vim-airline/tree/53c8aa4fd67d4c0c06ea3f58134fdbc92672f737)
+  * [Auto pairs](https://github.com/jiangmiao/auto-pairs/tree/84518168107c34fb540ee4f8cde743ceaf682bae)
+  * [CoffeeScript](https://github.com/kchmck/vim-coffee-script/tree/b91dbe92ad794a85a03b089f384fa324ff4e0c3d)
+  * [Coloresque](https://github.com/gko/vim-coloresque/tree/0c21b1469993e610600e88e734ffe90b9c10a514)
+  * [Colorschemes](https://github.com/flazz/vim-colorschemes/tree/b8dff40f69f1873effbed97c759a8452ecb240ed)
+  * [Csv](https://github.com/chrisbra/csv.vim/tree/c2b5a86b0b3105aec0800e146983041d52589595)
+  * [Emmet](https://github.com/mattn/emmet-vim/tree/44906fb16eb276622f1b8dbb3ab3062310a5b34c)
+  * [Endwise](https://github.com/tpope/vim-endwise/tree/0067ceda37725d01b7bd5bf249d63b1b5d4e2ab4)
+  * [Fugitive](https://github.com/tpope/vim-fugitive/tree/b754bc2031f21a532c083dd0d072ba373bbe3a37)
+  * [Gitgutter](https://github.com/airblade/vim-gitgutter/tree/1742a8f568df549f4daeda90174b54d0c371501f)
+  * [Handlebars](https://github.com/nono/vim-handlebars/tree/1eeeff8ade7b5008e7a213cc7eb9c7e1bed52bef)
+  * [Indexed search](https://github.com/henrik/vim-indexed-search/tree/1d93f47eb4635a09f8b16e317ad65c98af2ee2cc)
+  * [JavaScript](https://github.com/pangloss/vim-javascript/tree/5e024dc2e5b2d7e2a8b4d6446a0ed14352c2fa06)
+  * [Json](https://github.com/elzr/vim-json/tree/f5e3181d0b33a9c51377bb7ea8492feddca8b503)
+  * [Jsx](https://github.com/mxw/vim-jsx/tree/eb656ed96435ccf985668ebd7bb6ceb34b736213)
+  * [NERDTree tabs](https://github.com/jistr/vim-nerdtree-tabs/tree/5a91230193fea7f9c8d792cb5c635998d868337d)
+  * [NERDTree](https://github.com/scrooloose/nerdtree/tree/eee431dbd44111c858c6d33ffd366cae1f17f8b3)
+  * [Pug](https://github.com/digitaltoad/vim-pug/tree/cc1bddc890f4856aa0511fdfd7c55d2e66f688b5)
+  * [Rails](https://github.com/tpope/vim-rails/tree/09ffc844ef959ffe133d0994641ade192531007e)
+  * [Rubocop](https://github.com/ngmy/vim-rubocop/tree/1c57918086d22cc9db829125f6b78226feae86a3)
+  * [Ruby](https://github.com/vim-ruby/vim-ruby/tree/e865f7cacf05908668ed07be2db553f4fb4d56fd)
+  * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy/tree/706839044e326c0910f05543fabd3530a99ca9e4)
+  * [Slim](https://github.com/slim-template/vim-slim/tree/df26386b46b455f0c837c3ba30d1771204f209ca)
+  * [Syntastic react](https://github.com/jaxbot/syntastic-react/tree/b5048cacd21cda76bd595447a84d80679f51464b)
+  * [Syntastic](https://github.com/vim-syntastic/syntastic/tree/dfb263775bbf1d43350591b84bc53c925dcb7430)
+  * [Tcomment](https://github.com/tomtom/tcomment_vim/tree/a30434a3d2c7c74e2708a3bc800c5c14c1e6625e)
+  * [TypeScript](https://github.com/leafgarland/typescript-vim/tree/7e25a901af7cd993498cc9ecfc833ca2ac21db7a)
+
 
 ## Vim tips
 
