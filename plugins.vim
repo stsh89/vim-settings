@@ -36,7 +36,7 @@ let g:airline#extensions#tabline#show_buffers = 0
 "
 
 let g:nerdtree_tabs_open_on_console_startup = 1
-let g:NERDTreeWinSize = 50
+let g:NERDTreeWinSize = 40
 let NERDTreeHijackNetrw = 0
 autocmd VimEnter * NERDTree | wincmd p
 
