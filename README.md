@@ -12,6 +12,10 @@ If you are using Mac OS you may want to add this lines to ~/.vimrc file:
     set clipboard =unnamed
     set backspace =indent,eol,start
 
+If you are using Tmux on Linux system you may want to add following line to your ~/.bashrc file:
+
+    export TERM=screen-256color
+
 ## List of the installed plugins
   * [Airline themes](https://github.com/vim-airline/vim-airline-themes/tree/5bfa07ae06cbf3e73a137c2953e9877167e5986b)
   * [Airline](https://github.com/vim-airline/vim-airline/tree/53c8aa4fd67d4c0c06ea3f58134fdbc92672f737)
