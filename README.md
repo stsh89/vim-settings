@@ -151,6 +151,6 @@ Launch vim without any plugin:
 
     vim -u NONE
 
-Sort lines:
+Sort visually selected lines:
 
     sort /\ze\%V/
