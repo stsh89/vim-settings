@@ -3,10 +3,6 @@
 " colorscheme CandyPaper
 " colorscheme bvemu
 " colorscheme badwolf
-"
-" Maybe useful settings.
-" set spell
-"
 
 execute pathogen#infect()
 filetype plugin indent on
@@ -42,3 +38,4 @@ autocmd Filetype php setlocal ts =4 sw =4 expandtab
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType css set omnifunc =csscomplete#CompleteCSS
 autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
+autocmd FileType gitcommit setlocal spell
