@@ -41,6 +41,12 @@ let NERDTreeHijackNetrw = 0
 autocmd VimEnter * NERDTree | wincmd p
 
 "
+" CtrlP
+"
+
+let g:ctrlp_match_window = 'results:100'
+
+"
 " Different
 "
 

@@ -20,6 +20,7 @@ If you are using Mac OS you may want to add this lines to ~/.vimrc file:
   * [Coloresque](https://github.com/gko/vim-coloresque/tree/0c21b1469993e610600e88e734ffe90b9c10a514)
   * [Colorschemes](https://github.com/flazz/vim-colorschemes/tree/b8dff40f69f1873effbed97c759a8452ecb240ed)
   * [Csv](https://github.com/chrisbra/csv.vim/tree/c2b5a86b0b3105aec0800e146983041d52589595)
+  * [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
   * [Emmet](https://github.com/mattn/emmet-vim/tree/44906fb16eb276622f1b8dbb3ab3062310a5b34c)
   * [Endwise](https://github.com/tpope/vim-endwise/tree/0067ceda37725d01b7bd5bf249d63b1b5d4e2ab4)
   * [Fugitive](https://github.com/tpope/vim-fugitive/tree/b754bc2031f21a532c083dd0d072ba373bbe3a37)
@@ -149,3 +150,7 @@ Reload the file:
 Launch vim without any plugin:
 
     vim -u NONE
+
+Sort lines:
+
+    sort /\ze\%V/
