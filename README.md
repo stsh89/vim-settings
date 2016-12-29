@@ -16,6 +16,14 @@ If you are using Tmux on Linux system you may want to add following line to your
 
     export TERM=screen-256color
 
+And here is usefull settings for Tmux on Mac Os:
+
+    $ cat ~/.tmux.conf
+
+    set -g default-terminal "screen-256color"
+    set-option -g default-command "reattach-to-user-namespace -l bash"
+    set -g history-limit 20000
+
 ## List of the installed plugins
   * [Airline themes](https://github.com/vim-airline/vim-airline-themes/tree/5bfa07ae06cbf3e73a137c2953e9877167e5986b)
   * [Airline](https://github.com/vim-airline/vim-airline/tree/53c8aa4fd67d4c0c06ea3f58134fdbc92672f737)
