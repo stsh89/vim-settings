@@ -165,4 +165,12 @@ Launch vim without any plugin:
 
 Sort visually selected lines:
 
-    sort /\ze\%V/
+    :sort /\ze\%V/
+
+Remove dublicate spaces:
+
+    :s/\s\+/ /g
+
+Reformat in vim for a nice column layout:
+
+    :%!column -t
