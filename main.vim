@@ -28,6 +28,7 @@ set smartcase
 set incsearch
 
 setlocal foldmethod =indent
+hi clear SpellBad
 hi SpellBad cterm =underline,bold
 
 let g:netrw_sizestyle = 'h'
