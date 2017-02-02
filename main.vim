@@ -18,7 +18,7 @@ set statusline +=%#warningmsg#
 set statusline +=%{SyntasticStatuslineFlag()}
 set statusline +=%*
 set path =$PWD/**
-set grepprg =git\ grep\ -n
+set grepprg =git\ grep\ -n\ -i
 set expandtab
 set autoindent
 set number
