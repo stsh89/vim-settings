@@ -55,7 +55,6 @@ And here is usefull settings for Tmux on Mac Os:
   * [Tcomment](https://github.com/tomtom/tcomment_vim/tree/a30434a3d2c7c74e2708a3bc800c5c14c1e6625e)
   * [TypeScript](https://github.com/leafgarland/typescript-vim/tree/7e25a901af7cd993498cc9ecfc833ca2ac21db7a)
 
-
 ## Vim tips
 
 ![vim cheat sheet](vi-vim-cheat-sheet.gif)
@@ -174,3 +173,11 @@ Remove dublicate spaces:
 Reformat in vim for a nice column layout:
 
     :%!column -t
+
+Open quick fix window after grep comand:
+
+    :copen
+
+Close quick fix window:
+
+    :ccl
