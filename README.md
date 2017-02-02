@@ -193,3 +193,7 @@ Copy current file absolute path:
 Copy file name:
 
     :let @+=expand('%:t')
+
+Search exact word:
+
+    /\<your_exact_word\>
