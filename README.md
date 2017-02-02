@@ -181,3 +181,15 @@ Open quick fix window after grep comand:
 Close quick fix window:
 
     :ccl
+
+Copy current file relative path:
+
+    :let @+=expand('%')
+
+Copy current file absolute path:
+
+    :let @+=expand('%:p')
+
+Copy file name:
+
+    :let @+=expand('%:t')
