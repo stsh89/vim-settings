@@ -16,13 +16,18 @@ If you are using Tmux on Linux system you may want to add following line to your
 
     export TERM=screen-256color
 
-And here is usefull settings for Tmux on Mac Os:
+And here is useful settings for Tmux on Mac Os:
 
     $ cat ~/.tmux.conf
 
     set -g default-terminal "screen-256color"
     set-option -g default-command "reattach-to-user-namespace -l bash"
     set -g history-limit 20000
+
+## Special key maps
+
+    cf -- Copy file relative path
+    cF -- Copy file absolute path
 
 ## List of the installed plugins
   * [Airline themes](https://github.com/vim-airline/vim-airline-themes/tree/5bfa07ae06cbf3e73a137c2953e9877167e5986b)
@@ -166,7 +171,7 @@ Sort visually selected lines:
 
     :sort /\ze\%V/
 
-Remove dublicate spaces:
+Remove duplicate spaces:
 
     :s/\s\+/ /g
 
@@ -174,7 +179,7 @@ Reformat in vim for a nice column layout:
 
     :%!column -t
 
-Open quick fix window after grep comand:
+Open quick fix window after grep command:
 
     :copen
 
