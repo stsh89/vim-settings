@@ -1,7 +1,9 @@
 # vim-settings
+
 Just another Vim settings under version control system.
 
 ## Installation
+
 Run these commands to get this Vim configuration working on your Linux machine.
 
     git clone git@github.com:stsh89/vim-settings.git ~/.vim --recursive
@@ -11,6 +13,8 @@ If you are using Mac OS you may want to add this lines to ~/.vimrc file:
 
     set clipboard =unnamed
     set backspace =indent,eol,start
+
+## Vim + Tmux
 
 If you are using Tmux on Linux system you may want to add following line to your ~/.bashrc file:
 
@@ -24,12 +28,13 @@ And here is useful settings for Tmux on Mac Os:
     set-option -g default-command "reattach-to-user-namespace -l bash"
     set -g history-limit 20000
 
-## Special key maps
+## Shortcuts special for this settings
 
-    cf -- Copy file relative path
-    cF -- Copy file absolute path
+    cf " Copy relative file path
+    cF " Copy absolute file path
 
 ## List of the installed plugins
+
   * [Airline themes](https://github.com/vim-airline/vim-airline-themes/tree/5bfa07ae06cbf3e73a137c2953e9877167e5986b)
   * [Airline](https://github.com/vim-airline/vim-airline/tree/53c8aa4fd67d4c0c06ea3f58134fdbc92672f737)
   * [Auto pairs](https://github.com/jiangmiao/auto-pairs/tree/84518168107c34fb540ee4f8cde743ceaf682bae)
@@ -163,7 +168,7 @@ Reload the file:
 
     :e!
 
-Launch vim without any plugin:
+Launch Vim without any plugin:
 
     vim -u NONE
 
@@ -175,11 +180,11 @@ Remove duplicate spaces:
 
     :s/\s\+/ /g
 
-Reformat in vim for a nice column layout:
+Reformat file for a nice column layout:
 
     :%!column -t
 
-Open quick fix window after grep command:
+Open quick fix window:
 
     :copen
 
