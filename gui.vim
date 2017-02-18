@@ -1,6 +1,4 @@
 if has('gui_running')
-  colorscheme badwolf
-
   set lines =40 columns =170
   set guifont=DejaVu\ Sans\ Mono\ 11
   set noerrorbells

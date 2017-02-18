@@ -8,7 +8,7 @@ execute pathogen#infect()
 filetype plugin indent on
 syntax on
 
-colorscheme bvemu
+colorscheme CandyPaper
 
 set clipboard =unnamedplus
 set tabstop =2
