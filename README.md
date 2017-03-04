@@ -23,6 +23,21 @@ And here is useful settings for Tmux on Mac Os:
     set-option -g default-command "reattach-to-user-namespace -l bash"
     set -g history-limit 20000
 
+## Sample GVim launcher example for Linux
+
+Here is my sample ~/.local/share/applications/gvim.desktop
+
+    [Desktop Entry]
+    Version=1.0
+    Name=GVim
+    Comment=Edit text files
+    Exec=gvim %F
+    Icon=gvim
+    Terminal=false
+    Type=Application
+    Categories=Utility;TextEditor;
+    MimeType=text/plain
+
 ## Shortcuts special for this settings
 
     cf " Copy relative file path
