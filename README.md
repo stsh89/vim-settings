@@ -43,7 +43,7 @@ Here is my sample ~/.local/share/applications/gvim.desktop
     cf " Copy relative file path
     cF " Copy absolute file path
 
-## My preffered Vim settings on Mac OS:
+## My preferred Vim settings on Mac OS:
 
   set clipboard =unnamed
   set grepprg =ggrep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git}\ --exclude=*.swp
