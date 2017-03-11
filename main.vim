@@ -19,6 +19,7 @@ set statusline +=%{SyntasticStatuslineFlag()}
 set statusline +=%*
 set path =$PWD/**
 set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules}\ --exclude=*.swp
+set backspace =indent,eol,start
 
 set expandtab
 set autoindent

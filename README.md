@@ -46,13 +46,40 @@ Here is my sample ~/.local/share/applications/gvim.desktop
 ## My preffered Vim settings on Mac OS:
 
   set clipboard =unnamed
-  set backspace =indent,eol,start
   set grepprg =ggrep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git}\ --exclude=*.swp
 
   if has('gui_running')
     set guifont=Menlo:h14
     colorscheme CandyPaper
   endif
+
+## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
+
+Install system dependencies:
+
+    sudo apt-get install \
+      libncurses5-dev \
+      libx11-dev \
+      libxtst-dev \
+      libxt-dev \
+      libsm-dev \
+      libxpm-dev
+
+Get Vim sources from Github (https://github.com/vim/vim).
+Configure and install sources:
+
+    make distclean
+    ./configure \
+      --with-features=huge \
+      --enable-gui=auto \
+      --enable-gtk2-check \
+      --with-x
+    make
+    sudo make install
+
+To uninstall:
+
+    sudo make uninstall
 
 ## List of the installed plugins
 
