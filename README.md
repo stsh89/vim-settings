@@ -45,13 +45,13 @@ Here is my sample ~/.local/share/applications/gvim.desktop
 
 ## My preferred Vim settings on Mac OS:
 
-  set clipboard =unnamed
-  set grepprg =ggrep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git}\ --exclude=*.swp
+    set clipboard =unnamed
+    set grepprg =ggrep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git}\ --exclude=*.swp
 
-  if has('gui_running')
-    set guifont=Menlo:h14
-    colorscheme CandyPaper
-  endif
+    if has('gui_running')
+      set guifont=Menlo:h14
+      colorscheme CandyPaper
+    endif
 
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 
