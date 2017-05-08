@@ -53,6 +53,13 @@ Here is my sample ~/.local/share/applications/gvim.desktop
       colorscheme CandyPaper
     endif
 
+## My preferred colorschemas
+
+CandyPaper
+bvemu
+badwolf
+made_of_code
+
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 
 Install system dependencies:

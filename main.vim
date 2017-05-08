@@ -1,14 +1,7 @@
-"
-" List of my favourite color schemas.
-" colorscheme CandyPaper
-" colorscheme bvemu
-" colorscheme badwolf
-
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-
-colorscheme CandyPaper
+colorscheme made_of_code
 
 set clipboard =unnamedplus
 set tabstop =2
