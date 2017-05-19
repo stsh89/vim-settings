@@ -1,7 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-colorscheme vimbrant
+colorscheme darkburn
 
 set clipboard =unnamedplus
 set tabstop =2

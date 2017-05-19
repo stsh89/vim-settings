@@ -60,6 +60,7 @@ bvemu
 badwolf
 made_of_code
 vimbrant
+darkburn
 
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 
