@@ -96,7 +96,6 @@ To uninstall:
   * [Airline](https://github.com/vim-airline/vim-airline)
   * [Auto pairs](https://github.com/jiangmiao/auto-pairs)
   * [CoffeeScript](https://github.com/kchmck/vim-coffee-script)
-  * [Coloresque](https://github.com/gko/vim-coloresque)
   * [Colorschemes](https://github.com/flazz/vim-colorschemes)
   * [Csv](https://github.com/chrisbra/csv.vim)
   * [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
