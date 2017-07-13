@@ -82,6 +82,3 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
-[submodule "/Users/ssh/.vim/bundle/vim-go"]
-	path = /Users/ssh/.vim/bundle/vim-go
-	url = https://github.com/fatih/vim-go.git
