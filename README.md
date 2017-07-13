@@ -120,6 +120,7 @@ To uninstall:
   * [Syntastic](https://github.com/vim-syntastic/syntastic)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
   * [TypeScript](https://github.com/leafgarland/typescript-vim)
+  * [Vim-go](https://github.com/fatih/vim-go)
 
 ## Vim tips
 
