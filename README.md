@@ -60,7 +60,7 @@ Here is my sample ~/.local/share/applications/gvim.desktop
 * made_of_code
 * vimbrant
 * darkburn
-* Molokai
+* behelit
 
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 
