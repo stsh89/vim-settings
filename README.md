@@ -50,7 +50,6 @@ Here is my sample ~/.local/share/applications/gvim.desktop
 
     if has('gui_running')
       set guifont=Menlo:h14
-      colorscheme CandyPaper
     endif
 
 ## My preferred colorschemas
@@ -61,6 +60,7 @@ Here is my sample ~/.local/share/applications/gvim.desktop
 * made_of_code
 * vimbrant
 * darkburn
+* Molokai
 
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 
