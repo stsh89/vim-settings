@@ -1,7 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-colorscheme Molokai
+colorscheme behelit
 
 set clipboard =unnamedplus
 set tabstop =2
