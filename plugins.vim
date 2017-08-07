@@ -46,6 +46,7 @@ autocmd VimEnter * NERDTree | wincmd p
 "
 
 let g:ctrlp_match_window = 'results:100'
+let g:ctrlp_regexp = 1
 
 "
 " Different
