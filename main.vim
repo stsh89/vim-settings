@@ -1,8 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-" colorscheme CandyPaper
-colorscheme janah
+colorscheme CandyPaper
 
 set clipboard =unnamedplus
 set tabstop =2
