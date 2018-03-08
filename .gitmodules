@@ -1,9 +1,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
-[submodule "bundle/csv.vim"]
-	path = bundle/csv.vim
-	url = git@github.com:chrisbra/csv.vim.git
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git@github.com:mattn/emmet-vim.git
