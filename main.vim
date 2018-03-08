@@ -8,7 +8,6 @@ set tabstop =2
 set shiftwidth =2
 set foldlevel =99
 set statusline +=%#warningmsg#
-set statusline +=%{SyntasticStatuslineFlag()}
 set statusline +=%*
 set path =$PWD/**
 set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules}\ --exclude=*.swp

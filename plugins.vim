@@ -1,19 +1,4 @@
 "
-" Syntastic
-"
-" Maybe useful settings.
-" let g:syntastic_mode_map = { 'mode': 'passive' }
-"
-
-let g:syntastic_mode_map = { 'mode': 'passive' }
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_ruby_checkers = ['rubocop', 'mri']
-
-"
 " Airline
 "
 " List of my favourite airline themes.
@@ -53,8 +38,6 @@ let g:ctrlp_regexp = 1
 "
 
 let g:searchsavvy_smartgrep_auto_enable = 0
-let g:jsx_ext_required = 0
 let g:emmet_html5 = 0
-let g:jsx_ext_required = 0
 
 runtime macros/matchit.vim
