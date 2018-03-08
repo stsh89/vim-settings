@@ -7,12 +7,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
-[submodule "bundle/syntastic-react"]
-	path = bundle/syntastic-react
-	url = git@github.com:jaxbot/syntastic-react.git
 [submodule "bundle/tcomment_vim"]
 	path = bundle/tcomment_vim
 	url = git@github.com:tomtom/tcomment_vim.git
