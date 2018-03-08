@@ -31,9 +31,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
-[submodule "bundle/vim-handlebars"]
-	path = bundle/vim-handlebars
-	url = git@github.com:nono/vim-handlebars.git
 [submodule "bundle/vim-indexed-search"]
 	path = bundle/vim-indexed-search
 	url = git@github.com:henrik/vim-indexed-search.git
