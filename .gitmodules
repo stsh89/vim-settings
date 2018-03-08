@@ -31,21 +31,9 @@
 [submodule "bundle/vim-indexed-search"]
 	path = bundle/vim-indexed-search
 	url = git@github.com:henrik/vim-indexed-search.git
-[submodule "bundle/vim-pug"]
-	path = bundle/vim-pug
-	url = git@github.com:digitaltoad/vim-pug.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
 	url = git@github.com:jistr/vim-nerdtree-tabs.git
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git@github.com:tpope/vim-rails.git
-[submodule "bundle/vim-rubocop"]
-	path = bundle/vim-rubocop
-	url = git@github.com:ngmy/vim-rubocop.git
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
-	url = git@github.com:vim-ruby/vim-ruby.git
 [submodule "bundle/vim-searchsavvy"]
 	path = bundle/vim-searchsavvy
 	url = git@github.com:idbrii/vim-searchsavvy.git
