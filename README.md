@@ -55,12 +55,8 @@ Here is my sample ~/.local/share/applications/gvim.desktop
 ## My preferred colorschemas
 
 * CandyPaper
-* bvemu
 * badwolf
-* made_of_code
-* vimbrant
-* darkburn
-* behelit
+* jellybeans
 
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 

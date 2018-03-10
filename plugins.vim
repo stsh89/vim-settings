@@ -1,14 +1,4 @@
-"
-" Airline
-"
-" List of my favourite airline themes.
-" let g:airline_theme = 'wombat'
-" let g:airline_theme = 'badwolf'
-" let g:airline_theme = 'lucius'
-" let g:airline_theme = 'wombat'
-"
-
-let g:airline_theme = 'wombat'
+let g:airline_theme = 'jellybeans'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline_powerline_fonts = 1
