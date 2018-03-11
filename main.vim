@@ -29,9 +29,9 @@ let g:netrw_sizestyle = 'h'
 let g:netrw_preview = 1
 let g:netrw_liststyle = 1
 
-autocmd Filetype php setlocal ts =4 sw =4 expandtab
+autocmd Filetype c,h,php setlocal ts =4 sw =4 expandtab
 autocmd Filetype go setlocal ts =8 sw =8 noexpandtab
-autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType css set omnifunc =csscomplete#CompleteCSS
-autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
 autocmd FileType gitcommit setlocal spell
+autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
