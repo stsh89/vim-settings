@@ -102,6 +102,7 @@ To uninstall:
   * [NERDTree](https://github.com/scrooloose/nerdtree)
   * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
+  * [Vim-elixir](https://github.com/elixir-editors/vim-elixir)
 
 ## Vim tips
 
