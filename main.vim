@@ -12,6 +12,7 @@ set statusline +=%*
 set path =$PWD/**
 set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build}\ --exclude=*.swp
 set backspace =indent,eol,start
+set updatetime=250
 
 set expandtab
 set autoindent
