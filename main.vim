@@ -3,24 +3,23 @@ filetype plugin indent on
 syntax on
 colorscheme CandyPaper
 
-set clipboard =unnamedplus
-set tabstop =2
-set shiftwidth =2
-set foldlevel =99
-set statusline +=%#warningmsg#
-set statusline +=%*
-set path =$PWD/**
-set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build}\ --exclude=*.swp
-set backspace =indent,eol,start
-set updatetime=250
-
-set expandtab
 set autoindent
-set number
+set backspace =indent,eol,start
+set clipboard =unnamedplus
+set expandtab
+set foldlevel =99
+set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build}\ --exclude=*.swp
 set hlsearch
 set ignorecase
-set smartcase
 set incsearch
+set number
+set path =$PWD/**
+set shiftwidth =2
+set smartcase
+set statusline +=%#warningmsg#
+set statusline +=%*
+set tabstop =2
+set updatetime=250
 
 setlocal foldmethod =indent
 hi clear SpellBad
