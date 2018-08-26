@@ -3,24 +3,24 @@ filetype plugin indent on
 syntax on
 colorscheme CandyPaper
 
-set autoindent
-set backspace =indent,eol,start
 set clipboard =unnamedplus
-set expandtab
-set foldlevel =99
-set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build}\ --exclude=*.swp
-set hlsearch
-set ignorecase
-set incsearch
-set number
-set path =$PWD/**
+set tabstop =2
 set shiftwidth =2
-set smartcase
-set spell
+set foldlevel =99
 set statusline +=%#warningmsg#
 set statusline +=%*
-set tabstop =2
+set path =$PWD/**
+set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build}\ --exclude=*.swp
+set backspace =indent,eol,start
 set updatetime=250
+
+set expandtab
+set autoindent
+set number
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
 
 setlocal foldmethod =indent
 hi clear SpellBad
@@ -33,5 +33,6 @@ let g:netrw_liststyle = 1
 autocmd Filetype c,h,php setlocal ts =4 sw =4 expandtab
 autocmd Filetype go setlocal ts =8 sw =8 noexpandtab
 autocmd FileType css set omnifunc =csscomplete#CompleteCSS
+autocmd FileType gitcommit setlocal spell
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
