@@ -1,7 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-colorscheme CandyPaper
 
 set autoindent
 set backspace =indent,eol,start

@@ -4,9 +4,6 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git@github.com:mattn/emmet-vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/tcomment_vim"]
 	path = bundle/tcomment_vim
 	url = git@github.com:tomtom/tcomment_vim.git
@@ -31,9 +28,6 @@
 [submodule "bundle/vim-indexed-search"]
 	path = bundle/vim-indexed-search
 	url = git@github.com:henrik/vim-indexed-search.git
-[submodule "bundle/vim-nerdtree-tabs"]
-	path = bundle/vim-nerdtree-tabs
-	url = git@github.com:jistr/vim-nerdtree-tabs.git
 [submodule "bundle/vim-searchsavvy"]
 	path = bundle/vim-searchsavvy
 	url = git@github.com:idbrii/vim-searchsavvy.git
