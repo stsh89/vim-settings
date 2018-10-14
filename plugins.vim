@@ -34,6 +34,12 @@ let g:ctrlp_custom_ignore = 'deps\|_build\|log\|tmp\|node_modules\|target'
 let g:emmet_html5 = 0
 
 "
+" Rubocopfmt
+"
+
+let g:rubocopfmt_autosave = 1
+
+"
 " Rust.vim
 "
 
