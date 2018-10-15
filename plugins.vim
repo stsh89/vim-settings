@@ -40,6 +40,12 @@ let g:emmet_html5 = 0
 let g:rubocopfmt_autosave = 1
 
 "
+" Mixmft
+"
+
+let g:mixfmt_autosave = 1
+
+"
 " Rust.vim
 "
 
