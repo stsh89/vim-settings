@@ -16,8 +16,9 @@ endfunction
 
 function s:Run()
   execute('silent !rubocop -x %')
+  execute('e!')
   execute('redraw!')
 endfunction
 
 command Rubocopfmt execute "call rubocopfmt#PreWrite()"
-autocmd BufWritePost *.rb :Rubocopfmt
+autocmd BufWritePre *.rb :Rubocopfmt
