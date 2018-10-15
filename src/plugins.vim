@@ -37,13 +37,13 @@ let g:emmet_html5 = 0
 " Rubocopfmt
 "
 
-let g:rubocopfmt_autosave = 1
+" let g:rubocopfmt_autosave = 1
 
 "
 " Mixmft
 "
 
-let g:mixfmt_autosave = 1
+" let g:mixfmt_autosave = 1
 
 "
 " Rust.vim
