@@ -21,4 +21,4 @@ function s:Run()
 endfunction
 
 command Rubocopfmt execute "call rubocopfmt#PreWrite()"
-autocmd BufWritePre *.rb :Rubocopfmt
+autocmd BufWritePost *.rb :Rubocopfmt
