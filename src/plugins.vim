@@ -37,7 +37,7 @@ let g:emmet_html5 = 0
 " Rubocopfmt
 "
 
-let g:rubocopfmt_autosave = 1
+" let g:rubocopfmt_autosave = 1
 
 "
 " Mixmft
