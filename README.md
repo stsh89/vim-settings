@@ -98,10 +98,8 @@ To uninstall:
   * [Fugitive](https://github.com/tpope/vim-fugitive)
   * [Gitgutter](https://github.com/airblade/vim-gitgutter)
   * [Indexed search](https://github.com/henrik/vim-indexed-search)
-  * [Rust.vim](https://github.com/rust-lang/rust.vim#formatting-with-rustfmt)
   * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
-  * [Vim-elixir](https://github.com/elixir-editors/vim-elixir)
 
 ## Vim tips
 
