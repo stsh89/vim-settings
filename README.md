@@ -23,21 +23,6 @@ And here is useful settings for Tmux on Mac Os:
     set-option -g default-command "reattach-to-user-namespace -l bash"
     set -g history-limit 20000
 
-## Sample GVim launcher example for Linux
-
-Here is my sample ~/.local/share/applications/gvim.desktop
-
-    [Desktop Entry]
-    Version=1.0
-    Name=GVim
-    Comment=Edit text files
-    Exec=gvim %F
-    Icon=gvim
-    Terminal=false
-    Type=Application
-    Categories=Utility;TextEditor;
-    MimeType=text/plain
-
 ## Shortcuts special for this settings
 
     cf " Copy relative file path
@@ -51,12 +36,6 @@ Here is my sample ~/.local/share/applications/gvim.desktop
     if has('gui_running')
       set guifont=Menlo:h14
     endif
-
-## My preferred colorschemas
-
-* CandyPaper
-* badwolf
-* jellybeans
 
 ## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
 
@@ -88,10 +67,7 @@ To uninstall:
 
 ## List of the installed plugins
 
-  * [Airline themes](https://github.com/vim-airline/vim-airline-themes)
-  * [Airline](https://github.com/vim-airline/vim-airline)
   * [Auto pairs](https://github.com/jiangmiao/auto-pairs)
-  * [Colorschemes](https://github.com/flazz/vim-colorschemes)
   * [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
   * [Emmet](https://github.com/mattn/emmet-vim)
   * [Endwise](https://github.com/tpope/vim-endwise)
@@ -110,9 +86,12 @@ Make vim to copy into system clipboard:
     sudo apt-get install vim-gnome
     :set clipboard=unnamedplus
 
-Join two lines with or without space between them:
+Join two lines with space between them:
 
     Shift + J
+
+Join two lines without space between them:
+
     gJ
 
 Spell check:
