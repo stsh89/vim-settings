@@ -71,8 +71,6 @@ To uninstall:
   * [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
   * [Emmet](https://github.com/mattn/emmet-vim)
   * [Endwise](https://github.com/tpope/vim-endwise)
-  * [Fugitive](https://github.com/tpope/vim-fugitive)
-  * [Gitgutter](https://github.com/airblade/vim-gitgutter)
   * [Indexed search](https://github.com/henrik/vim-indexed-search)
   * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
