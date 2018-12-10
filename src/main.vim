@@ -35,3 +35,4 @@ autocmd FileType css set omnifunc =csscomplete#CompleteCSS
 autocmd FileType gitcommit setlocal spell
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
+autocmd BufNewFile,BufRead *.dart set ft =javascript
