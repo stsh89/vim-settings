@@ -1,7 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax off
-colorscheme koehler
+colorscheme pablo
 
 set autoindent
 set backspace =indent,eol,start
