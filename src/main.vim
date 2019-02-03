@@ -8,7 +8,7 @@ set backspace =indent,eol,start
 set clipboard =unnamedplus
 set expandtab
 set foldlevel =99
-set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build}\ --exclude=*.swp
+set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git,node_modules,deps,_build,.bundle}\ --exclude=*.swp
 set hlsearch
 set ignorecase
 set incsearch
