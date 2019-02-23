@@ -20,6 +20,11 @@ set statusline +=%#warningmsg#
 set statusline +=%*
 set tabstop =2
 set updatetime=250
+set keymap=russian-jcukenwin
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
 
 setlocal foldmethod =indent
 hi clear SpellBad
