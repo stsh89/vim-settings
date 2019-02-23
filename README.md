@@ -65,6 +65,12 @@ To uninstall:
 
     sudo make uninstall
 
+## Using Vim installed via flatpak
+
+    vim () {
+      flatpak run --command=vim org.vim.Vim $1
+    }
+
 ## List of the installed plugins
 
   * [Auto pairs](https://github.com/jiangmiao/auto-pairs)
