@@ -12,7 +12,7 @@ let g:ctrlp_custom_ignore = 'deps\|_build\|log\|tmp\|node_modules\|target\|.bund
 " Emmet
 "
 
-let g:emmet_html5 = 0
+let g:emmet_html5 = 1
 
 "
 " Searchsavvy
