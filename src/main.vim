@@ -25,6 +25,7 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNO
 set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
+setglobal complete-=i
 
 setlocal foldmethod =indent
 hi clear SpellBad
