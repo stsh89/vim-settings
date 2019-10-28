@@ -3,6 +3,9 @@ filetype plugin indent on
 syntax off
 colorscheme pablo
 
+setglobal complete-=i
+setlocal foldmethod =indent
+
 set autoindent
 set backspace =indent,eol,start
 set clipboard =unnamedplus
@@ -24,10 +27,10 @@ set keymap=russian-jcukenwin
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 set iminsert=0
 set imsearch=0
-highlight lCursor guifg=NONE guibg=Cyan
-setglobal complete-=i
 
-setlocal foldmethod =indent
+highlight Normal ctermfg=LightGrey
+highlight lCursor guifg=NONE guibg=Cyan
+
 hi clear SpellBad
 hi SpellBad cterm =underline,bold
 
