@@ -45,3 +45,16 @@ autocmd FileType gitcommit setlocal spell
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
 autocmd BufNewFile,BufRead *.dart set ft =javascript
+
+" Change cursor shape in different modes
+" For the Gnome-Terminal (version ≥3.16)
+if has("autocmd")
+  au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
+  au InsertEnter,InsertChange *
+    \ if v:insertmode == 'i' |
+    \   silent execute '!echo -ne "\e[6 q"' | redraw! |
+    \ elseif v:insertmode == 'r' |
+    \   silent execute '!echo -ne "\e[4 q"' | redraw! |
+    \ endif
+  au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
+endif
