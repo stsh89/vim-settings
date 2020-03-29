@@ -40,7 +40,7 @@ let g:netrw_liststyle = 1
 
 autocmd Filetype c,h,php setlocal ts =4 sw =4 expandtab
 autocmd Filetype go setlocal ts =8 sw =8 noexpandtab
-autocmd FileType css set omnifunc =csscomplete#CompleteCSS
+" autocmd FileType css set omnifunc =csscomplete#CompleteCSS
 autocmd FileType gitcommit setlocal spell
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
