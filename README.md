@@ -82,12 +82,6 @@ To uninstall:
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
   * [Vim lsc(https://github.com/natebosch/vim-lsc)
 
-## Language Servers
-
-Install css/less/sass language server:
-
-    npm install --global vscode-css-languageserver-bin
-
 ## Vim tips
 
 ![vim cheat sheet](vi-vim-cheat-sheet.gif)
