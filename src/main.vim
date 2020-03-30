@@ -23,8 +23,6 @@ set statusline +=%#warningmsg#
 set statusline +=%*
 set tabstop =2
 set updatetime=250
-set keymap=russian-jcukenwin
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 set iminsert=0
 set imsearch=0
 
@@ -40,11 +38,12 @@ let g:netrw_liststyle = 1
 
 autocmd Filetype c,h,php setlocal ts =4 sw =4 expandtab
 autocmd Filetype go setlocal ts =8 sw =8 noexpandtab
-" autocmd FileType css set omnifunc =csscomplete#CompleteCSS
 autocmd FileType gitcommit setlocal spell
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.jbuilder set ft =ruby
 autocmd BufNewFile,BufRead *.dart set ft =javascript
+autocmd BufNewFile,BufRead *.ts set ft =javascript
+autocmd BufNewFile,BufRead *.tsx set ft =javascript
 
 " Change cursor shape in different modes
 " For the Gnome-Terminal (version ≥3.16)
