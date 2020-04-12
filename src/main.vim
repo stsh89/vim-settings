@@ -1,7 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax off
-colorscheme pablo
+highlight LineNr ctermfg=green
 
 setglobal complete-=i
 setlocal foldmethod =indent
