@@ -1,7 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax off
-highlight LineNr ctermfg=green
 
 setglobal complete-=i
 setlocal foldmethod =indent
@@ -28,6 +27,10 @@ set imsearch=0
 
 highlight Normal ctermfg=LightGrey
 highlight lCursor guifg=NONE guibg=Cyan
+highlight LineNr ctermfg=green
+highlight Search ctermbg=red
+highlight MatchParen ctermbg=red
+highlight Visual ctermbg=red
 
 hi clear SpellBad
 hi SpellBad cterm =underline,bold
