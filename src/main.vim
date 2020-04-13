@@ -29,6 +29,7 @@ set imsearch=0
 highlight Normal ctermfg=LightGrey
 highlight lCursor guifg=NONE guibg=Cyan
 highlight LineNr ctermfg=grey
+highlight TabLine ctermfg=blue
 
 hi clear SpellBad
 hi SpellBad cterm =underline,bold
