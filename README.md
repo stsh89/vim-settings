@@ -80,7 +80,7 @@ To uninstall:
   * [Indexed search](https://github.com/henrik/vim-indexed-search)
   * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
-  * [Vim lsc(https://github.com/natebosch/vim-lsc)
+  * [Vim colorschemes](https://github.com/flazz/vim-colorschemes)
 
 ## Vim tips
 
