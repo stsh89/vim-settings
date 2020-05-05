@@ -2,7 +2,7 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax enable
-colorscheme iceberg
+colorscheme dracula
 
 setglobal complete-=i
 setlocal foldmethod =indent
@@ -26,9 +26,6 @@ set tabstop =2
 set updatetime=250
 set iminsert=0
 set imsearch=0
-
-highlight LineNr ctermfg=grey
-highlight TabLine ctermfg=blue
 
 hi clear SpellBad
 hi SpellBad cterm =underline,bold
