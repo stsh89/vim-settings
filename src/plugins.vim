@@ -2,10 +2,9 @@
 " CtrlP
 "
 
-let g:ctrlp_match_window = 'results:100'
+let g:ctrlp_match_window = 'results:30'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = '\v[\/](deps|_build|build|log|tmp|node_modules|target)$'
-
 
 "
 " Emmet
