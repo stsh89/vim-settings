@@ -5,6 +5,7 @@
 let g:ctrlp_match_window = 'results:30'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = '\v[\/](deps|_build|build|log|tmp|node_modules|target)$'
+let g:ctrlp_regexp = 1
 
 "
 " Emmet
