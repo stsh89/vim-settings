@@ -7,6 +7,7 @@ colorscheme lizard256
 setglobal complete-=i
 setlocal foldmethod =indent
 
+set colorcolumn=101
 set autoindent
 set backspace =indent,eol,start
 set clipboard =unnamedplus
