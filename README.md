@@ -37,41 +37,19 @@ And here is useful settings for Tmux on Mac Os:
       set guifont=Menlo:h14
     endif
 
-## Build Vim from sources in Ubuntu 16.04 with clipboard enabled
+## Build Vim from sources in Ubuntu 18.04/20.04 with docker
 
-Install system dependencies:
+Clone git sources and run following commands from sources folder:
 
-    sudo apt-get install \
-      libncurses5-dev \
-      libx11-dev \
-      libxtst-dev \
-      libxt-dev \
-      libsm-dev \
-      libxpm-dev
+    docker run --rm -it -v $PWD:/app -w /app gcc /bin/bash -c 'make distclean && make'
+    sudo bash -c 'cp src/vim /usr/local/bin &&
+                  rm -rf /usr/local/share/vim &&
+                  mkdir /usr/local/share/vim &&
+                  cp -r runtime/ /usr/local/share/vim'
 
-Get Vim sources from Github (https://github.com/vim/vim).
-Configure and install sources:
+Maybe you will need specific gcc image version.
 
-    make distclean
-    ./configure \
-      --with-features=huge \
-      --enable-gui=auto \
-      --enable-gtk2-check \
-      --with-x
-    make
-    sudo make install
-
-To uninstall:
-
-    sudo make uninstall
-
-## Using Vim installed via flatpak
-
-    vim () {
-      flatpak run --command=vim org.vim.Vim $1
-    }
-
-## List of the installed plugins
+## List of the included plugins
 
   * [Auto pairs](https://github.com/jiangmiao/auto-pairs)
   * [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
@@ -81,6 +59,7 @@ To uninstall:
   * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
   * [Vim colorschemes](https://github.com/flazz/vim-colorschemes)
+  * [Vim polyglot](https://github.com/sheerun/vim-polyglot)
 
 ## Vim tips
 
@@ -113,7 +92,7 @@ Spell check manipulations
 
 Left only current tab open:
 
-    :tabonly
+    :tabo
 
 Open URL under cursor in Vim with browser:
 
