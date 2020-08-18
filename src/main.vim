@@ -2,7 +2,7 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax enable
-colorscheme lizard256
+colorscheme codeblocks_dark
 
 setglobal complete-=i
 setlocal foldmethod =indent
