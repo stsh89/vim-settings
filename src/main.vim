@@ -1,7 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 
-syntax enable
+syntax on
 colorscheme codeblocks_dark
 
 setglobal complete-=i
