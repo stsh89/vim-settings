@@ -30,7 +30,7 @@ set iminsert=0
 set imsearch=0
 
 hi clear SpellBad
-hi SpellBad cterm =underline,bold
+hi SpellBad cterm =bold
 
 let g:netrw_sizestyle = 'h'
 let g:netrw_preview = 1
