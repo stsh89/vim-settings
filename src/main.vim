@@ -2,12 +2,13 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax on
-colorscheme mopkai
+colorscheme wombat256
 
 setglobal complete-=i
 setlocal foldmethod =indent
 
 set colorcolumn=101
+highlight ColorColumn ctermbg=darkgrey
 
 set autoindent
 set backspace =indent,eol,start
@@ -30,7 +31,7 @@ set iminsert=0
 set imsearch=0
 
 hi clear SpellBad
-hi SpellBad cterm =bold ctermbg=darkblue
+hi SpellBad cterm =bold
 
 let g:netrw_sizestyle = 'h'
 let g:netrw_preview = 1
