@@ -22,3 +22,6 @@
 [submodule "pack/default/start/vim-polyglot"]
 	path = pack/default/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/default/start/awesome-vim-colorschemes"]
+	path = pack/default/start/awesome-vim-colorschemes
+	url = git@github.com:rafi/awesome-vim-colorschemes
