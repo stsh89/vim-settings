@@ -2,7 +2,6 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax on
-" colorscheme molokai
 set background=dark
 colorscheme PaperColor
 
@@ -10,7 +9,6 @@ setglobal complete-=i
 setlocal foldmethod =indent
 
 set colorcolumn=101
-" highlight ColorColumn ctermbg=darkgrey
 
 set autoindent
 set backspace =indent,eol,start
