@@ -11,31 +11,17 @@ Run these commands to get this Vim configuration working on your Linux machine.
 
 ## Vim + Tmux
 
-If you are using Tmux on Linux system you may want to add following line to your ~/.bashrc file:
-
-    export TERM=screen-256color
-
-And here is useful settings for Tmux on Mac Os:
+My Tmux config on Ubuntu looks like this:
 
     $ cat ~/.tmux.conf
 
     set -g default-terminal "screen-256color"
-    set-option -g default-command "reattach-to-user-namespace -l bash"
-    set -g history-limit 20000
+    set-option -g history-limit 1000000
 
 ## Shortcuts special for this settings
 
     cf " Copy relative file path
     cF " Copy absolute file path
-
-## My preferred Vim settings on Mac OS:
-
-    set clipboard =unnamed
-    set grepprg =ggrep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={log,tmp,.git}\ --exclude=*.swp
-
-    if has('gui_running')
-      set guifont=Menlo:h14
-    endif
 
 ## Build Vim from sources in Ubuntu 18.04/20.04 with docker
 
@@ -51,15 +37,15 @@ Maybe you will need specific gcc image version.
 
 ## List of the included plugins
 
-  * [Auto pairs](https://github.com/jiangmiao/auto-pairs)
+  * [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
   * [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)
   * [Emmet](https://github.com/mattn/emmet-vim)
   * [Endwise](https://github.com/tpope/vim-endwise)
-  * [Indexed search](https://github.com/henrik/vim-indexed-search)
+  * [Indexed Search](https://github.com/henrik/vim-indexed-search)
   * [Searchsavvy](https://github.com/idbrii/vim-searchsavvy)
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
-  * [Vim colorschemes](https://github.com/flazz/vim-colorschemes)
-  * [Vim polyglot](https://github.com/sheerun/vim-polyglot)
+  * [Awesome Vim Colorschemes](https://github.com/rafi/awesome-vim-colorschemes)
+  * [Vim Polyglot](https://github.com/sheerun/vim-polyglot)
 
 ## Vim tips
 
