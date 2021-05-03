@@ -3,7 +3,7 @@ filetype plugin indent on
 
 syntax on
 set background=dark
-colorscheme PaperColor
+colorscheme rdark-terminal2
 
 setglobal complete-=i
 setlocal foldmethod =indent
