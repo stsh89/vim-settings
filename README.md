@@ -25,7 +25,7 @@ My Tmux config on Ubuntu looks like this:
 
 ## Build Vim from sources in Ubuntu 18.04/20.04 with docker
 
-Clone git sources and run following commands from sources folder:
+Clone git sources and run following commands from sources folder (current gcc version for ubuntu 20.04 is 9.3):
 
     docker run --rm -it -v $PWD:/app -w /app gcc /bin/bash -c 'make distclean && make'
     sudo bash -c 'cp src/vim /usr/local/bin &&
