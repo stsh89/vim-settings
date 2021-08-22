@@ -2,8 +2,8 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax on
-set background=dark
 colorscheme rdark-terminal2
+set background=dark
 
 setglobal complete-=i
 setlocal foldmethod =indent
@@ -32,6 +32,7 @@ set imsearch=0
 
 hi clear SpellBad
 hi SpellBad cterm =bold
+hi Normal ctermbg=black
 
 let g:netrw_sizestyle = 'h'
 let g:netrw_preview = 1
