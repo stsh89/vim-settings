@@ -9,6 +9,10 @@ Run these commands to get this Vim configuration working on your Linux machine.
     git clone git@github.com:stsh89/vim-settings.git ~/.vim --recursive
     echo "source ~/.vim/.vimrc" > ~/.vimrc
 
+## Update plugins
+
+    git submodule update --remote
+
 ## Vim + Tmux
 
 My Tmux config on Ubuntu looks like this:
