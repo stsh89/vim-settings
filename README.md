@@ -27,6 +27,10 @@ My Tmux config on Ubuntu looks like this:
     cf " Copy relative file path
     cF " Copy absolute file path
 
+## Commands special for this settings
+
+    :Grep " grep in a new tab, same as :tabe | grep
+
 ## Build Vim from sources in Ubuntu 18.04/20.04 with docker
 
 Clone git sources and run following commands from sources folder (current gcc version for ubuntu 20.04 is 9.3):
