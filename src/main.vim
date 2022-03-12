@@ -2,7 +2,7 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax on
-colorscheme rdark-terminal2
+colorscheme molokai
 set background=dark
 
 setglobal complete-=i
