@@ -13,10 +13,6 @@ Run these commands to get this Vim configuration working on your Linux machine.
 
     git submodule update --remote
 
-## List of my long used color schemas
-
-rdark-terminal2
-
 ## Vim + Tmux
 
 My Tmux config on Ubuntu looks like this:
