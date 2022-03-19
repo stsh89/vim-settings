@@ -1,23 +1,23 @@
 [submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
+	path = pack/default/start/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
 [submodule "bundle/emmet-vim"]
-	path = bundle/emmet-vim
+	path = pack/default/start/emmet-vim
 	url = git@github.com:mattn/emmet-vim.git
 [submodule "bundle/tcomment_vim"]
-	path = bundle/tcomment_vim
+	path = pack/default/start/tcomment_vim
 	url = git@github.com:tomtom/tcomment_vim.git
 [submodule "bundle/vim-endwise"]
-	path = bundle/vim-endwise
+	path = pack/default/start/vim-endwise
 	url = git@github.com:tpope/vim-endwise.git
 [submodule "bundle/vim-indexed-search"]
-	path = bundle/vim-indexed-search
+	path = pack/default/start/vim-indexed-search
 	url = git@github.com:henrik/vim-indexed-search.git
 [submodule "bundle/vim-searchsavvy"]
-	path = bundle/vim-searchsavvy
+	path = pack/default/start/vim-searchsavvy
 	url = git@github.com:idbrii/vim-searchsavvy.git
 [submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
+	path = pack/default/start/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
 [submodule "pack/default/start/vim-polyglot"]
 	path = pack/default/start/vim-polyglot
