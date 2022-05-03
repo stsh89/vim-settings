@@ -89,6 +89,10 @@ Left only current tab open:
 
     :tabo
 
+Open file under cursor in Vim:
+
+    gf
+
 Open URL under cursor in Vim with browser:
 
     gx
