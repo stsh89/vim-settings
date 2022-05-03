@@ -160,7 +160,7 @@ Display current filename:
 
 Pretty json:
 
-    :%!python -m json.tool
+    :%!python3 -m json.tool
 
 Reload the file:
 
