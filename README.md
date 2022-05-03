@@ -89,6 +89,10 @@ Left only current tab open:
 
     :tabo
 
+Open file under cursor in Vim:
+
+    gf
+
 Open URL under cursor in Vim with browser:
 
     gx
@@ -156,7 +160,7 @@ Display current filename:
 
 Pretty json:
 
-    :%!python -m json.tool
+    :%!python3 -m json.tool
 
 Reload the file:
 
