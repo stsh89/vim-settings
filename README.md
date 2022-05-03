@@ -54,6 +54,7 @@ Maybe you will need specific gcc image version.
   * [Tcomment](https://github.com/tomtom/tcomment_vim)
   * [Awesome Vim Colorschemes](https://github.com/rafi/awesome-vim-colorschemes)
   * [Vim Polyglot](https://github.com/sheerun/vim-polyglot)
+  * [Fugitive](https://github.com/tpope/vim-fugitive)
 
 ## Vim tips
 
