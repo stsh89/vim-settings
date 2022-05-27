@@ -24,8 +24,9 @@ My Tmux config on Ubuntu looks like this:
 
 ## Shortcuts special for this settings
 
-    cf " Copy relative file path
-    cF " Copy absolute file path
+    cf  " Copy relative file path
+    cF  " Copy absolute file path
+    \ff " (leader+ff) just an alias for CtrlP
 
 ## Commands special for this settings
 
