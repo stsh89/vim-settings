@@ -143,6 +143,10 @@ Move pane to a new tab:
 
     Ctrl-W Shift-T
 
+Paste yanked text into Vim command line:
+
+    Ctrl-R "
+
 Open file on specific line:
 
     vim +20 file.txt
