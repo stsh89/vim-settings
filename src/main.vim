@@ -26,6 +26,7 @@ set updatetime=250
 set iminsert=0
 set imsearch=0
 set mouse=a
+set ffs=unix
 
 hi clear SpellBad
 hi SpellBad cterm =bold
