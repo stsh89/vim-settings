@@ -12,7 +12,6 @@ set backspace =indent,eol,start
 set clipboard =unnamedplus
 set expandtab
 set foldlevel =99
-set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={public,log,logs,tmp,.git,.github,node_modules,deps,_build,dist,.bundle,.cargo,target,static,.elixir_ls,vendor}\ --exclude={*.swp,*.log,*.svg,*.xml}
 set hlsearch
 set ignorecase
 set incsearch
