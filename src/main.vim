@@ -1,9 +1,6 @@
 filetype plugin indent on
-
 syntax on
 colorscheme rdark-terminal2
-set background=dark
-
 setglobal complete-=i
 setlocal foldmethod =indent
 
