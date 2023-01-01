@@ -39,18 +39,6 @@ Should be placed inside `_gvimrc` on Windows or `.gvimrc` on Linux, uncomment ne
     set co=120
     set lines=30
 
-## Build Vim from sources in Ubuntu 18.04/20.04 with docker
-
-Clone git sources and run following commands from sources folder (current gcc version for ubuntu 20.04 is 9.3):
-
-    docker run --rm -it -v $PWD:/app -w /app gcc /bin/bash -c 'make distclean && make'
-    sudo bash -c 'cp src/vim /usr/local/bin &&
-                  rm -rf /usr/local/share/vim &&
-                  mkdir /usr/local/share/vim &&
-                  cp -r runtime/ /usr/local/share/vim'
-
-Maybe you will need specific gcc image version.
-
 ## List of the included plugins
 
   * [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
