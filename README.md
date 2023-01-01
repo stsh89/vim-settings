@@ -28,6 +28,17 @@ My Tmux config on Ubuntu looks like this:
     cF  " Copy absolute file path
     \ff " (leader+ff) just an alias for CtrlP
 
+## GUI
+
+Should be placed inside `_gvimrc` on Windows or `.gvimrc` on Linux, uncomment needed lines:
+
+    " colorscheme onedark
+    " colorscheme molokai
+    " set guifont=Consolas:h11:cANSI "Win11
+    " set guifont=Source\ Code\ Pro\ 13 "Fedora
+    set co=120
+    set lines=30
+
 ## Build Vim from sources in Ubuntu 18.04/20.04 with docker
 
 Clone git sources and run following commands from sources folder (current gcc version for ubuntu 20.04 is 9.3):
