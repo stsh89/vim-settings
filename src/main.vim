@@ -1,6 +1,6 @@
 filetype plugin indent on
 syntax on
-colorscheme rdark-terminal2
+colorscheme molokai
 setglobal complete-=i
 setlocal foldmethod =indent
 
