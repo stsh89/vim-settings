@@ -24,6 +24,7 @@ set iminsert=0
 set imsearch=0
 set mouse=a
 set ffs=unix
+set grepprg =grep\ -r\ -n\ -i\ -I\ $*\ --exclude-dir={public,log,logs,tmp,.git,.github,node_modules,deps,_build,dist,.bundle,.cargo,target,static,.elixir_ls,vendor}\ --exclude={*.swp,*.log,*.svg,*.xml}
 
 hi clear SpellBad
 hi SpellBad cterm =bold
